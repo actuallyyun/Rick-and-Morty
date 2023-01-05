@@ -140,7 +140,7 @@ const displayCharacters = (characters) => {
         fetch(character)
             .then(response => response.json())
             .then(character => {
-                console.log(character)
+
                 const cardCol = document.createElement('div')
                 cardCol.classList.add('col-3')
                 const cardLink = document.createElement('a')
